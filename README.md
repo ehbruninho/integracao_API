@@ -12,10 +12,10 @@ Repositório para armazenar codigo desenvolvido para resolver problemas de integ
 ## ⚙️Configurações necessárias
 | Ação | Descrição | Status |
 |------|-----------| ------ |
-|1° Passo | Cadastrar usuários com suas respectivas entidades | Em Andamento |
-| 2° Passo | Atribuir permissão de admin para esse usuario | Não iniciado |
-|3° Passo | Gerar uma API_Token para cada usuário cadastrado | Não iniciado |
-|4° Passo | Exportar banco de dados com todos usuários cadastrados (Atualizar banco)| Não iniciado |
+|1° Passo | Cadastrar usuários com suas respectivas entidades | Feito |
+| 2° Passo | Atribuir permissão de admin para esse usuario | Feito |
+|3° Passo | Gerar uma API_Token para cada usuário cadastrado | Feito |
+|4° Passo | Exportar banco de dados com todos usuários cadastrados (Atualizar banco)| Em Andamento |
 
 ## 💻 Explicação sobre o codigo
 
