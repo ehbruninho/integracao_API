@@ -19,18 +19,13 @@ Repositório para armazenar codigo desenvolvido para resolver problemas de integ
 
 ## 💻 Explicação sobre o codigo
 
-Primeiramente descobri que para conseguir verificar todos chamados, preciso de um usuário vinculado na entidade que preciso consultar (Somente nela). Após preciso gerar um API_Token desse usuário. 
+Primeiramente, descobri que para conseguir verificar todos os chamados, é necessário ter um usuário vinculado exclusivamente à entidade que se deseja consultar. Em seguida, é preciso gerar um API_Token para esse usuário.
 
-Depois de cadastrar todos clientes vinculados as suas respectivas entidades, precisamos ir para o código. 
+Depois de cadastrar todos os clientes vinculados às suas respectivas entidades, passamos para o código.
 
-No código em python que criei eu faço uma primeira função (valida CNPJ) onde o cliente digita o CNPJ, ele valida para verificar se existe, exibe uma mensagem dizendo que encontrou e me informa qual id da entidade. 
+No código Python que criei, há uma primeira função chamada valida_CNPJ. Nela, o cliente digita o CNPJ, o qual é validado para verificar se existe no banco de dados. Se o CNPJ for encontrado, uma mensagem é exibida informando que ele foi encontrado e indicando o ID da entidade associada.
 
-Após é efetuada outra validação, pegando esse id da validação anterior (valida CNPJ) e usando como argumento na função criada para identificar (consulta token) se existe um usuário com api_token ativa nessa entidade. Caso exista, o cliente escolhe se quer chamar função de consultar os tickets ou incluir um novo ticket. 
+A seguir, é feita uma outra validação, utilizando o ID obtido na validação anterior (valida_CNPJ) como argumento para uma função criada para identificar (consulta_token) se existe um usuário com um API_Token ativo nessa entidade. Caso exista, o cliente pode escolher entre consultar os tickets ou incluir um novo ticket.
 
-Tanto a função incluir ticket quanto a função consultar ticket estão recebendo como argumento o api_token passado por parâmetro da consulta encontrar_token)
-
-
-
-
-
+Tanto a função de inclusão de ticket quanto a função de consulta de tickets recebem como argumento o API_Token passado pela função consulta_token.
 
