@@ -12,10 +12,11 @@ Repositório para armazenar codigo desenvolvido para resolver problemas de integ
 ## ⚙️Configurações necessárias
 | Ação | Descrição | Status |
 |------|-----------| ------ |
-|1° Passo | Cadastrar usuários com suas respectivas entidades | Feito |
-| 2° Passo | Atribuir permissão de admin para esse usuario | Feito |
-|3° Passo | Gerar uma API_Token para cada usuário cadastrado | Feito |
-|4° Passo | Exportar banco de dados com todos usuários cadastrados (Atualizar banco)| Em Andamento |
+|1° Passo | Cadastrar usuários com suas respectivas entidades | Finalizado |
+|2° Passo | Atribuir permissão de admin para esse usuario | Finalizado |
+|3° Passo | Gerar uma API_Token para cada usuário cadastrado | Finalizado |
+|4° Passo | Exportar banco de dados com todos usuários cadastrados (Atualizar banco)| Finalizado|
+|5° Passo | Megazap precisa ajustar no codigo fonte.| Em andamento |
 
 ## 💻 Explicação sobre o codigo
 
